@@ -1,0 +1,32 @@
+nav {
+	height: 50px; 
+	line-height: 50px;
+	background-color: #289B1B !important;
+}
+
+#logo {
+	width: 50px;
+	margin-left: 10px;
+}
+
+#bar {
+	height: 42px;
+	width: 2.4px;
+	margin-left: 15px;
+}
+
+#travel-piece {
+	font-size: 22px;
+	margin-left: 15px;
+	font-family: "Lato";
+}
+
+#sections {
+	margin-left: 15px;
+}
+
+a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
+{
+   color: white;
+   text-decoration: none;
+}

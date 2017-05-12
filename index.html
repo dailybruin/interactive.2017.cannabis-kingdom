@@ -15,56 +15,51 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:image:type" content="image/jpg" />
 
+  <!-- TITLE -->
   <title>Travel Piece | Daily Bruin | April 2017</title>
-  <!--jquery-->
-    <script src="jquery-3.2.1.min.js"></script>
+  
+  <!--JQUERY -->
+  <script src="jquery-3.2.1.min.js"></script>
 
-<!--STYLESHEETS-->
+  <!--STYLESHEETS-->
   <link rel="stylesheet" href="css/landing.css" />
   <link rel="stylesheet" href="css/scroll.css" />
   <link rel="stylesheet" href="css/bootstrap.css" />
-
+  <link rel="stylesheet" href="css/index.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
 
+  <!-- FONTS -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Satisfy|Lato|Montserrat|Roboto|Fugaz+One" />
 
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="js/navbar.js"></script>
 </head>
 
 <body>
-
-
-
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand topnav" href="#">Home</a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-              <li>
-                  <a href="#section1">Section 1</a>
-              </li>
-              <li>
-                  <a href="#section2">Section 2</a>
-              </li>
-              <li>
-                  <a href="#section3">Section 3</a>
-              </li>
-
-          </ul>
-      </div>
-
-    </div>
-
-
-  </nav>
+  <!-- NAVBAR -->
+  <div><nav><div class="nav-wrapper nav-wrapper-fixed-top" id="navbar">
+    <a href="index.html" class="left">
+      <img id="logo" src="img/db_logo.png" />
+    </a>
+    <a class="left">
+      <img id="bar" src="img/bar.jpg" />
+    </a>
+    <a href="index.html" class="left navlink" id="travel-piece">
+      Travel Piece
+    </a>
+    <ul id="sections" class="left hide-on-med-and-down">
+      <li id="Section1"><a class="navlink" href="javascript:sectionPressed(1)">Section 1</a></li>
+      <li id="Section2"><a class="navlink" href="javascript:sectionPressed(2)">Section 2</a></li>
+      <li id="Section3"><a class="navlink" href="javascript:sectionPressed(3)">Section 3</a></li>
+    </ul>
+    <ul id="days" class="right hide-on-med-and-down">
+      <li id="Day1"><a class="navlink" href="javascript:dayPressed(1)">Day 1</a></li>
+      <li id="Day2"><a class="navlink" href="javascript:dayPressed(2)">Day 2</a></li>
+      <li id="Day3"><a class="navlink" href="javascript:dayPressed(3)">Day 3</a></li>
+    </ul>
+  </div></nav></div>
 
   <div class="KW_progressContainer">
     <div class="KW_progressBar">
