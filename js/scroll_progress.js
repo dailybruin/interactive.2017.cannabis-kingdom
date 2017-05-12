@@ -4,5 +4,4 @@ $(window).on('load', function(){
     var totalScroll = (wintop/(docheight-winheight))*100;
     $(".KW_progressBar").css("width",totalScroll+"%");
   });
-
 });
