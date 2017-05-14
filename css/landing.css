@@ -20,6 +20,22 @@ body {
   background-color: #464646;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #e57373;
+}
+
+.rule {
+  background-color: #289B1B !important;
+  color: #289B1B !important;
+  margin-bottom: 30px;
+  border: none;
+  height: 5px;
+}
+
 #content {
   margin-left: 3vh;
   margin-right: 3vh;
@@ -31,6 +47,7 @@ body {
   font-family: 'Lora', serif;
   color: white;
   text-align: center;
+  height: 100vh;
   padding-top: 40vh;
   padding-bottom: 15vh;
 }
@@ -60,5 +77,7 @@ i:hover {
 
 #section1 {
   color: white;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
