@@ -22,10 +22,16 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #e57373;
+  color: lightgreen;
+}
+.days {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 5vh;
 }
 
 .rule {
@@ -44,12 +50,10 @@ a:hover {
 }
 
 #infotext {
-  font-family: 'Lora', serif;
   color: white;
   text-align: center;
   height: 100vh;
   padding-top: 40vh;
-  padding-bottom: 15vh;
 }
 
 i {
