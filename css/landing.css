@@ -20,19 +20,45 @@ body {
   background-color: #464646;
 }
 
-#info {
+#content {
   margin-left: 3vh;
   margin-right: 3vh;
   margin-top: 3vh;
-  height: 200vh;
-  padding-bottom: 10px;
-    background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .7);
 }
 
 #infotext {
-    font-family: 'Lora', serif;
-    font-size: 10vh;
+  font-family: 'Lora', serif;
   color: white;
   text-align: center;
+  padding-top: 40vh;
+  padding-bottom: 15vh;
+}
+
+i {
+    border: solid lightgrey;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+i:hover {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#arrow {
+  padding-top: 20vh;
+}
+
+#section1 {
+  color: white;
 }
 
