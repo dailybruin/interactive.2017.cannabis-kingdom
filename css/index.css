@@ -7,18 +7,20 @@ nav {
 #logo {
 	width: 50px;
 	margin-left: 10px;
+  margin-top: 5px;
 }
 
 #bar {
 	height: 42px;
 	width: 2.4px;
 	margin-left: 15px;
+  margin-top: 10px;
 }
 
 #travel-piece {
 	font-size: 22px;
 	margin-left: 15px;
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 
 #sections {
@@ -29,4 +31,38 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 {
    color: white;
    text-decoration: none;
+}
+
+.article-content{
+  background-color:#fff1ce;
+}
+
+.article-header{
+  height:75vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-color: red;
+  z-index: 1000;
+  position: relative;
+}
+
+.headline-section{
+  margin: 2em;
+  position:absolute;
+  bottom:0;
+  text-align: left;
+}
+
+.headline-section .headline{
+  font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: white;
+}
+
+.section-identifier{
+  font-family: 'Montserrat', serif;
+  width: auto;
+  font-size: 1.25em;
+  color: white;
 }
