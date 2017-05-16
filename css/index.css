@@ -126,3 +126,14 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 body{
   overflow-x: hidden;
 }
+
+#player{
+  position:absolute;
+  top:0;
+  display: inline-block;
+  
+}
+
+.player-container{
+  position:relative;
+}
