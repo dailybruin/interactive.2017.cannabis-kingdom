@@ -86,5 +86,28 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   font-size:2em;
   font-weight: 700;
   text-align: left;
+}
 
+.video-refer{
+  width: 300px;
+  float: right;
+  display: inline-block;
+  border: 2px solid lightskyblue;
+  padding: 5px;
+  margin-left: 1em;
+}
+
+.video-refer .title{
+  font-family: 'Karla', serif;
+  font-size: 1.25em;
+  border-bottom: 2px solid lightskyblue;
+}
+
+.video-refer .video-title{
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.25em;
+}
+
+.video-refer .video-desc{
+  font-family: 'Karla', sans-serif;
 }
