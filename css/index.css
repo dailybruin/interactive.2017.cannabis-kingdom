@@ -34,7 +34,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 }
 
 .article-content{
-  background-color:#fff1ce;
+
 }
 
 .article-header{
@@ -61,8 +61,30 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 }
 
 .section-identifier{
-  font-family: 'Montserrat', serif;
+  font-family: 'Karla', serif;
   width: auto;
   font-size: 1.25em;
   color: white;
+}
+
+.article-post{
+  margin:1em auto;
+  text-align: left;
+  max-width: 600px;
+  padding: 0px 15px;
+}
+
+.article-post p{
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.paragraph-title{
+  font-family: 'Lora', serif;
+  line-height: 2;
+  font-size:2em;
+  font-weight: 700;
+  text-align: left;
+
 }
