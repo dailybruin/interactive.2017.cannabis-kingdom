@@ -7,18 +7,20 @@ nav {
 #logo {
 	width: 50px;
 	margin-left: 10px;
+  margin-top: 5px;
 }
 
 #bar {
 	height: 42px;
 	width: 2.4px;
 	margin-left: 15px;
+  margin-top: 10px;
 }
 
 #travel-piece {
 	font-size: 22px;
 	margin-left: 15px;
-	font-family: "Lato";
+	font-family: 'Lato';
 }
 
 #sections {
@@ -29,4 +31,83 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 {
    color: white;
    text-decoration: none;
+}
+
+.article-content{
+
+}
+
+.article-header{
+  height:75vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-color: red;
+  z-index: 1000;
+  position: relative;
+}
+
+.headline-section{
+  margin: 2em;
+  position:absolute;
+  bottom:0;
+  text-align: left;
+}
+
+.headline-section .headline{
+  font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: white;
+}
+
+.section-identifier{
+  font-family: 'Karla', serif;
+  width: auto;
+  font-size: 1.25em;
+  color: white;
+}
+
+.article-post{
+  margin:1em auto;
+  text-align: left;
+  max-width: 600px;
+  padding: 0px 15px;
+}
+
+.article-post p{
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.paragraph-title{
+  font-family: 'Lora', serif;
+  line-height: 2;
+  font-size:2em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.video-refer{
+  width: 300px;
+  float: right;
+  display: inline-block;
+  border: 2px solid lightskyblue;
+  padding: 5px;
+  margin-left: 1em;
+}
+
+.video-refer .title{
+  font-family: 'Karla', serif;
+  font-size: 1.25em;
+  border-bottom: 2px solid lightskyblue;
+}
+
+.video-refer .video-title{
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.25em;
+}
+
+.video-refer .video-desc{
+  font-family: 'Karla', sans-serif;
 }
