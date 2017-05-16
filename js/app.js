@@ -21,6 +21,7 @@ $(document).ready(function(){
         function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
             width: '100%',
+            height: '100%',
             videoId: 'M7lc1UVf-VE',
             playerVars: { 'autoplay': 1, 'controls': 0 },
             events: {

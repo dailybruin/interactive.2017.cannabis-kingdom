@@ -130,10 +130,13 @@ body{
 #player{
   position:absolute;
   top:0;
-  display: inline-block;
+  display: block;
+  left: 0;
   
 }
 
 .player-container{
   position:relative;
+  height: auto;
+  margin: 0px -5px;
 }
