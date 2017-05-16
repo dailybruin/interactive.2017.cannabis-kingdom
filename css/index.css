@@ -95,7 +95,18 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   border: 2px solid lightskyblue;
   padding: 5px;
   margin-left: 1em;
+  transition: all 1s ease-in-out;
 }
+
+.video-poster{
+  display: block;
+  opacity:1;
+  transition: opacity 1s linear;
+}
+
+/*.video-refer:hover{
+  width: 100%;
+}*/
 
 .video-refer .title{
   font-family: 'Karla', serif;
@@ -110,4 +121,8 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 
 .video-refer .video-desc{
   font-family: 'Karla', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
 }
