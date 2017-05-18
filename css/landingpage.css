@@ -6,8 +6,8 @@
 }
 .landingimage {
   float: left;
-  width: 500px;
-  padding-left: 10%;
+  width: 300px;
+  padding-left: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -17,6 +17,10 @@
   padding-left: 35%;
   vertical-align: baseline;
   text-align: left;
+}
+.landingsection {
+  font-family: Lato;
+  font-size: 125%;
 }
 li {
   padding-top: 10px;
