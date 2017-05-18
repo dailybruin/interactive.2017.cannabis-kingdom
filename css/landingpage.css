@@ -1,0 +1,24 @@
+.day {
+  font-size: 400%;
+  font-weight: bold;
+  font-family: Lato;
+  text-align: center;
+}
+.landingimage {
+  float: left;
+  width: 500px;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.landingtext {
+  font-family: Lato;
+  width: 90%;
+  padding-left: 35%;
+  vertical-align: baseline;
+  text-align: left;
+}
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
