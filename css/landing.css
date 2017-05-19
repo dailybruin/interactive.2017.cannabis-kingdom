@@ -1,20 +1,20 @@
 body {
   background-image: url('splash.jpg');
-  
+
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
+
+  /* Background image is fixed in the viewport so that it doesn't move when
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
-  
+
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
@@ -84,4 +84,27 @@ i:hover {
   margin-left: 10%;
   margin-right: 10%;
 }
-
+.day {
+  font-size: 400%;
+  font-weight: bold;
+  font-family: Lato;
+  text-align: center;
+}
+.landingimage {
+  float: left;
+  width: 300px;
+  padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.landingtext {
+  font-family: Lato;
+  width: 90%;
+  padding-left: 35%;
+  vertical-align: baseline;
+  text-align: left;
+}
+.landingsection {
+  font-family: Lato;
+  font-size: 125%;
+}
