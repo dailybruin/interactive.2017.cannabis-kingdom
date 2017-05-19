@@ -85,3 +85,52 @@ i:hover {
   margin-right: 10%;
 }
 
+#parallax-container{
+  height: auto;
+  width: 100vw;
+  position: relative;
+  display: block;
+}
+
+.layer0{
+  background-image: url('../img/layer0.png');
+  background-size: cover;
+  z-index: 10;
+  width: 100%;
+  position:absolute;
+  top:0;
+  left: 0;
+}
+
+.layer1{
+  background-image: url('../img/layer1.png');
+  background-size: cover;
+  height: auto;
+  z-index: 11;
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
+
+.layer2{
+  background-image: url('../img/layer2.png');
+  background-size: cover;
+  height: auto;
+  z-index: 12;
+  position:absolute;
+  top:0;
+  width: 100%;
+  left: 0;
+}
+
+.layer3{
+  background-image: url('../img/layer3.png');
+  background-size: cover;
+  height: auto;
+  z-index: 13;
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+}
