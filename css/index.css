@@ -70,7 +70,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 .article-post{
   margin:1em auto;
   text-align: left;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0px 15px;
 }
 
@@ -95,7 +95,9 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   border: 2px solid lightskyblue;
   padding: 5px;
   margin-left: 1em;
+  margin-bottom: 1em;
   transition: all 1s ease-in-out;
+  cursor: pointer;
 }
 
 .video-poster{
