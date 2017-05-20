@@ -112,8 +112,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 
 .video-refer .title{
   font-family: 'Karla', serif;
-  font-size: 1.25em;
-  border-bottom: 2px solid lightskyblue;
+  font-size: 1.25em;;
 }
 
 .video-refer .video-title{
