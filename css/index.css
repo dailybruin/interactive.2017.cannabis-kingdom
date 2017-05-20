@@ -70,7 +70,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 .article-post{
   margin:1em auto;
   text-align: left;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0px 15px;
 }
 
@@ -95,12 +95,24 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   border: 2px solid lightskyblue;
   padding: 5px;
   margin-left: 1em;
+  margin-bottom: 1em;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
 }
+
+.video-poster{
+  display: block;
+  opacity:1;
+  transition: opacity 1s linear;
+}
+
+/*.video-refer:hover{
+  width: 100%;
+}*/
 
 .video-refer .title{
   font-family: 'Karla', serif;
-  font-size: 1.25em;
-  border-bottom: 2px solid lightskyblue;
+  font-size: 1.25em;;
 }
 
 .video-refer .video-title{
@@ -110,4 +122,22 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 
 .video-refer .video-desc{
   font-family: 'Karla', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#player{
+  position:absolute;
+  top:0;
+  display: block;
+  left: 0;
+  
+}
+
+.player-container{
+  position:relative;
+  height: auto;
+  margin: 0px -5px;
 }
