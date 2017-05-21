@@ -9,21 +9,21 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 $(document).ready(function(){
 
-    $('.video-poster').click(function(){
+    $('.video-refer').click(function(){
         var $toExpand = $(this).closest('.video-refer');
         expandAndPlay($toExpand);
     });
 
     function expandAndPlay($toExpand) {
         $toExpand.css('width', '100%');
-        $toExpand.find('.video-poster').delay(1000).css('opacity', '0');
         onYouTubeIframeAPIReady();
+        $toExpand.find('.video-poster').delay(1000).css('opacity', '0');
         function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
             width: '100%',
             height: '100%',
             videoId: 'M7lc1UVf-VE',
-            playerVars: { 'autoplay': 1, 'controls': 0 },
+            playerVars: { 'autoplay': 1, 'controls': 0, 'autohide':1, 'showinfo': 0 },
             events: {
             'onReady': onPlayerReady
             }
