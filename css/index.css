@@ -58,7 +58,9 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   z-index: 1000;
   position: relative;
 }
-
+.day1images {
+  width: 100%;
+}
 .smallpicright {
   width: 300px;
   float: right;
@@ -67,7 +69,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 .smallpicleft {
   width: 300px;
   float: left;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 
