@@ -215,3 +215,9 @@ body{
 .materialboxed {
   max-width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .smallpicleft, .smallpicright {
+    width: 150px;
+  }
+}
