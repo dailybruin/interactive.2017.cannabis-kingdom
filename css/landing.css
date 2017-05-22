@@ -98,7 +98,7 @@ i:hover {
   padding-bottom: 10px;
 }
 .landingtext {
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   width: 90%;
   padding-left: 35%;
   vertical-align: baseline;

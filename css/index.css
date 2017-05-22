@@ -42,6 +42,8 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   width: 100vw;
   margin-top:-64px;
   background-color: red;
+  /*background-image: url("../img/behind_the_smoke_updated_version.png");
+  background-repeat: no-repeat;*/
   z-index: 1000;
   position: relative;
 }
@@ -67,7 +69,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   color: white;
 }
 
-.article-post{
+.article-post, #blurb{
   margin:1em auto;
   text-align: left;
   max-width: 800px;
