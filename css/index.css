@@ -144,3 +144,7 @@ body{
   height: auto;
   margin: 0px -5px;
 }
+
+.materialboxed {
+  max-width: 100%;
+}
