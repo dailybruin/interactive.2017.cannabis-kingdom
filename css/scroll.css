@@ -1,11 +1,7 @@
 .KW_progressContainer {
   left:0;
   width: 100%;
-<<<<<<< HEAD
   height: .4em;
-=======
-  height: 0.5em;
->>>>>>> eb9f6c6e394b4bb2f475600ef6183a6809103bf9
   margin-bottom: 0px;
   position: fixed;
   bottom: 0px;
@@ -23,14 +19,3 @@
   z-index:99;
   max-width: 100%;
   background-color:#289B1B;
-<<<<<<< HEAD
-  /*-webkit-transition: width .6s ease;
-  -o-transition: width .6s ease;
-  transition: width .6s ease;*/
-}
-=======
-  /*-webkit-transition: width .3s ease;
-  -o-transition: width .3s ease;
-  transition: width .3s ease;*/
-} 
->>>>>>> eb9f6c6e394b4bb2f475600ef6183a6809103bf9
