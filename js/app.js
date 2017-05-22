@@ -22,7 +22,7 @@ $(document).ready(function(){
         player = new YT.Player('player', {
             width: '100%',
             height: '100%',
-            videoId: 'M7lc1UVf-VE',
+            videoId: '7FbvrAFZYzI',
             playerVars: { 'autoplay': 1, 'controls': 0, 'autohide':1, 'showinfo': 0 },
             events: {
             'onReady': onPlayerReady

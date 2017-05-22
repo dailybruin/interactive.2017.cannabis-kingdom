@@ -79,6 +79,12 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   font-weight: bold;
 }
 
+.images {
+  font-family: 'Lora', serif !important;
+  font-style: italic;
+  font-size: 12px;
+}
+
 .article-header2 {
   height:100vh;
   width: 100vw;
@@ -144,10 +150,10 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
 }
 
 .video-refer{
-  width: 300px;
+  width: 350px;
   float: right;
   display: inline-block;
-  border: 2px solid lightskyblue;
+  border: none;
   padding: 5px;
   margin-left: 1em;
   margin-bottom: 1em;
