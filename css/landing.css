@@ -237,6 +237,17 @@ i:hover {
   text-align: center;
 }
 
+.footer{
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
 	#parallax-container {
 		display: none;
@@ -258,6 +269,10 @@ i:hover {
     width: 100%;
     border-bottom: 3px #4f73af solid;
     padding-bottom: 1em;
+  }
+
+  .footer{
+    height: 70px;
   }
 
 
