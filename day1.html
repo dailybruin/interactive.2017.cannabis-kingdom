@@ -20,9 +20,6 @@
   <!-- TITLE -->
   <title>Travel Piece | Daily Bruin | April 2017</title>
 
-  <!--JQUERY -->
-  <script src="jquery-3.2.1.min.js"></script>
-
   <!--STYLESHEETS-->
   <link rel="stylesheet" href="css/day1.css" />
   <link rel="stylesheet" href="css/scroll.css" />
@@ -34,9 +31,12 @@
   <!-- FONTS -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Satisfy|Lato|Montserrat|Roboto|Fugaz+One|Montserrat|Lora:400,700|Abril+Fatface|Karla"
   />
-
-  <!-- JAVASCRIPT -->
-  <script type="text/javascript" src="js/navbar.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    #sidenav-overlay{
+      z-index: 100;
+    }
+  </style>
 </head>
 
 <body>
@@ -44,6 +44,7 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper" id="navbar">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <a href="index.html" class="left">
           <img id="logo" src="img/db_logo.png" />
         </a>
@@ -62,6 +63,16 @@
       <li id="Day1"><a class="navlink" href="javascript:dayPressed(1)">Day 1</a></li>
       <li id="Day2"><a class="navlink" href="javascript:dayPressed(2)">Day 2</a></li>
       <li id="Day3"><a class="navlink" href="javascript:dayPressed(3)">Day 3</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a class="subheader">Day 1</a></li>
+      <li><a href="day1.html#stirring">Stirring the Pot</a></li>
+      <li><a href="day1.html#taking">Taking the Hit</a></li>
+      <li><a href="day1.html#higher">A Higher Calling</a></li>
+
+      <li><a class="subheader">Day 2 - Coming soon</a></li>
+
+      <li><a class="subheader">Day 3 - Coming soon</a></li>
     </ul>
   </div></nav></div>
   <article class="article-content">
@@ -249,6 +260,8 @@
   <script src="js/scroll_progress.js"></script>
   <script src="js/app.js"></script>
   <script src="js/smoothscroll.js"></script>
+    <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="js/navbar.js"></script>
 
 </body>
 
