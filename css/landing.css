@@ -4,12 +4,15 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #4f73af;
   text-decoration: none;
+  transition: all 0.5s ease;
+
 }
 
 a:hover {
-  color: lightgreen;
+  text-decoration: none;
+  color: #4f73af;
 }
 .days {
   font-family: 'Lato', sans-serif;
@@ -18,22 +21,14 @@ a:hover {
 }
 
 .rule {
-  background-color: #289B1B !important;
-  color: #289B1B !important;
+  background-color: #4f73af !important;
+  color: #4f73af !important;
   margin-bottom: 30px;
   border: none;
   height: 5px;
 }
 
-#content {
-  margin-left: 3vh;
-  margin-right: 3vh;
-  margin-top: 3vh;
-  background-color: rgba(0, 0, 0, .7);
-}
-
 #infotext {
-  color: white;
   text-align: center;
   height: 100vh;
   padding-top: 40vh;
@@ -63,9 +58,8 @@ i:hover {
 }
 
 #section1 {
-  color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 800px;
+  margin: 1em auto;
 }
 
 .day {
@@ -74,24 +68,12 @@ i:hover {
   font-family: Lato;
   text-align: center;
 }
+
 .landingimage {
   float: left;
   width: 300px;
-  padding-left: 5%;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
-.landingtext {
-  font-family: 'Lato', sans-serif;
-  width: 90%;
-  padding-left: 35%;
-  vertical-align: baseline;
-  text-align: left;
-}
-.landingsection {
-  font-family: 'Lato';
-  font-size: 125%;
-}
+
 
 #parallax-container{
   height: 800px;
@@ -99,6 +81,12 @@ i:hover {
   position: relative;
   display: block;
   background-color: black;
+}
+
+#content-container{
+  margin: 90px 1em;
+  margin-bottom: 1em;
+  height: auto;
 }
 
 .layer0{
@@ -168,6 +156,97 @@ i:hover {
   background-position: center;
 }
 
+.link-image{
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+.cards{
+  overflow: auto;
+}
+
+.link-text{
+    font-family: 'Lora', serif;
+}
+
+.link-title{
+  font-family: 'Abril Fatface', serif;
+  font-size: 2em;
+}
+
+.link-card{
+  display: block;
+  width: 48%;
+  margin-bottom: 1em;
+  border-top: 0px #4f73af solid;
+  transition: all 0.5s ease;
+}
+
+.link-card .read-more{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.link-card:hover{
+  border-top: 20px #4f73af solid;
+}
+
+.link-card.left{
+  float: left;
+}
+
+.link-card.right{
+  float: right;
+}
+
+#sub{
+  font-family: 'Montserrat', serif;
+  font-size: 1em;
+  width: 100%;
+  z-index: 1001;
+}
+
+#parallax-text{
+  font-family: 'Abril Fatface', serif;
+  position: absolute;
+  top:0;
+  text-align: center;
+  color: white;
+  width: 100%;
+  z-index: 1001;
+  text-shadow: 0px 0px black;
+  
+}
+
+#main{
+  z-index: 1001;
+  width: 100%;
+  font-size: 4em;
+}
+
+.footer{
+  height: 50px;
+  background-color:#4f73af;
+  display: block;
+}
+
+.coming-soon{
+  font-family: 'Abril Fatface', serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
 
 @media only screen and (max-width: 768px) {
 	#parallax-container {
@@ -175,5 +254,27 @@ i:hover {
 	}
   #mobile-header{
     display: block;
+    margin-top: 0px;
   }
+  .link-image{
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+  }
+  #content-container{
+  margin: 0px 1em;
+  }
+
+  .link-card{
+    width: 100%;
+    border-bottom: 3px #4f73af solid;
+    padding-bottom: 1em;
+  }
+
+  .footer{
+    height: 70px;
+  }
+
+
 }
+
