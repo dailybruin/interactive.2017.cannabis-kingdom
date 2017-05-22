@@ -23,3 +23,4 @@ function dayPressed(index) {
 			$(dayID).removeClass("active");
 	}
 }
+
