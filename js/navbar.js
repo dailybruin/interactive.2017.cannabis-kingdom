@@ -24,3 +24,6 @@ function dayPressed(index) {
 	}
 }
 
+$( document ).ready(function() {
+    $(".button-collapse").sideNav();
+});
