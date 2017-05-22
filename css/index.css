@@ -221,3 +221,12 @@ body{
     width: 150px;
   }
 }
+
+.coming {
+  font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: #4f73af;
+  text-align: center;
+  padding-top: 15%;
+}
