@@ -58,6 +58,13 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   z-index: 1000;
   position: relative;
 }
+
+.op1link {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .article-header2 {
   height:100vh;
   width: 100vw;
