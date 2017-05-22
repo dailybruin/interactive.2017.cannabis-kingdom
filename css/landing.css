@@ -3,28 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-#content-container {
-  background-image: url('splash.jpg');
-
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-
-  /* Background image is fixed in the viewport so that it doesn't move when
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -116,7 +94,7 @@ i:hover {
 }
 
 #parallax-container{
-  height: 75vh;
+  height: 800px;
   width: 100vw;
   position: relative;
   display: block;
@@ -125,43 +103,77 @@ i:hover {
 
 .layer0{
   background-image: url('../img/layer0.png');
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 10;
   width: 100%;
+  height: 100%;
   position:absolute;
   top:0;
   left: 0;
+  transform: scale(1.1);
 }
 
 .layer1{
   background-image: url('../img/layer1.png');
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: auto;
   z-index: 11;
   position:absolute;
   top:0;
   left: 0;
   width: 100%;
+  height: 100%;
+  transform: scale(1.2);
 }
 
 .layer2{
   background-image: url('../img/layer2.png');
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: auto;
   z-index: 12;
   position:absolute;
   top:0;
   width: 100%;
+  height: 100%;
   left: 0;
+  transform: scale(1.2);
 }
 
 .layer3{
   background-image: url('../img/layer3.png');
-  background-size: contain;
-  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
   z-index: 13;
   position:absolute;
   top:0;
   left: 0;
   width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+}
+
+#mobile-header{
+  display: none;
+  height: 100vh;
+  background-image: url('../img/mobile-header.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#parallax-container {
+		display: none;
+	}
+  #mobile-header{
+    display: block;
+  }
 }
