@@ -18,10 +18,13 @@ nav {
 }
 
 #travel-piece {
+  font-family: "Lora", serif !important;
+}
+
+#travel-piece {
 	font-size: 22px;
 	margin-left: 15px;
   margin-right: 15px;
-	font-family: 'Lato';
 }
 
 #sections {
@@ -34,10 +37,16 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
    text-decoration: none;
 }
 
-.article-content{
-
+.left {
+  font-family: 'Lato', sans-serif;
 }
 
+.op-headline-day1 {
+    font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: black;
+}
 .article-header{
   height:100vh;
   width: 100vw;
@@ -47,6 +56,16 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   background-size: cover;
   background-position: bottom;
   z-index: 1000;
+  position: relative;
+}
+.article-header2 {
+  height:100vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-image: url("../img/11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   position: relative;
 }
 
@@ -69,6 +88,13 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   width: auto;
   font-size: 1.25em;
   color: white;
+}
+
+.section-identifier-opday1{
+  font-family: 'Karla', serif;
+  width: auto;
+  font-size: 1.25em;
+  color: black;
 }
 
 .article-post, #blurb{
