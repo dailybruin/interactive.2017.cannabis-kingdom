@@ -201,6 +201,23 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   background-color: #4f73af;
 }
 
+.video-refer2{
+  width: 350px;
+  float: right;
+  display: inline-block;
+  border: 3px solid #4f73af;
+  padding: 5px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.video-refer2:hover{
+  color: white;
+  background-color: #4f73af;
+}
+
 .video-poster{
   display: block;
   opacity:1;
