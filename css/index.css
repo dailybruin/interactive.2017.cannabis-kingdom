@@ -47,6 +47,12 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   font-size: 4.5em;
   color: black;
 }
+.op-headline-day2 {
+    font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: white;
+}
 .article-header{
   height:100vh;
   width: 100vw;
@@ -77,7 +83,6 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  z-index: 1000;
   position: relative;
 }
 
@@ -145,6 +150,13 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   width: auto;
   font-size: 1.25em;
   color: black;
+}
+
+.section-identifier-opday2{
+  font-family: 'Karla', serif;
+  width: auto;
+  font-size: 1.25em;
+  color: white;
 }
 
 .article-post, #blurb{
