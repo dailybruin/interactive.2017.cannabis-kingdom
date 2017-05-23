@@ -257,3 +257,12 @@ body{
   text-align: center;
   padding-top: 15%;
 }
+
+.fotorama__caption{
+  text-align: center;
+}
+
+.fotorama__caption__wrap{
+  background-color: rgba(0,0,0,0.5) !important;
+  color: white;
+}
