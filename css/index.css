@@ -58,6 +58,29 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   z-index: 1000;
   position: relative;
 }
+.article-headerday2-1{
+  height:100vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-image: url("../img/day2/keyvispano.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1000;
+  position: relative;
+}
+.article-header2day2{
+  height:100vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-image: url("../img/day2/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1000;
+  position: relative;
+}
+
 .day1images {
   width: 100%;
 }
@@ -203,6 +226,10 @@ body{
 }
 
 #higher1, #taking1, #stirring1, #op-headline1-day1-1 {
+  padding-top: 64px;
+}
+
+#california1, #neighbor1, #road1, #op-headline-day2-1 {
   padding-top: 64px;
 }
 
