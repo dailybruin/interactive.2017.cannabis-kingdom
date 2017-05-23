@@ -237,6 +237,10 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   font-family: 'Abril Fatface', serif;
   font-size: 1.25em;
 }
+.video-refer2 .video-title{
+  font-family: 'Abril Fatface', serif;
+  font-size: 1.25em;
+}
 
 .video-refer .video-desc{
   font-family: 'Karla', sans-serif;
