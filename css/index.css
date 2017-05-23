@@ -86,7 +86,7 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   position: relative;
 }
 
-.day1images {
+.day1images, .day2images {
   width: 100%;
 }
 .smallpicright {
