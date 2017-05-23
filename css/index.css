@@ -250,13 +250,15 @@ body{
   overflow-x: hidden;
 }
 
-#player{
+#player, #player-2{
   position:absolute;
   top:0;
   display: block;
   left: 0;
   
 }
+
+
 
 #higher1, #taking1, #stirring1, #op-headline1-day1-1 {
   padding-top: 64px;
