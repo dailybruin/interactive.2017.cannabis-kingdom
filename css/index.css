@@ -53,6 +53,12 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   font-size: 4.5em;
   color: white;
 }
+.op-headline-day3 {
+    font-family: 'Abril Fatface', serif;
+  position:relative;
+  font-size: 4.5em;
+  color: white;
+}
 .article-header{
   height:100vh;
   width: 100vw;
@@ -75,6 +81,17 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   z-index: 1000;
   position: relative;
 }
+.article-headerday3-1{
+  height:100vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-image: url("../img/day3/keyvis.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1000;
+  position: relative;
+}
 .article-header2day2{
   height:100vh;
   width: 100vw;
@@ -85,8 +102,18 @@ a.navlink:link, a.navlink:visited, a.navlink:hover, a.navlink:active
   background-position: bottom;
   position: relative;
 }
+.article-header2day3{
+  height:100vh;
+  width: 100vw;
+  margin-top:-64px;
+  background-image: url("../img/day3/9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
 
-.day1images, .day2images {
+.day1images, .day2images, .day3images {
   width: 100%;
 }
 .smallpicright {
