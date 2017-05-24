@@ -19,7 +19,7 @@ $(document).ready(function(){
         onYouTubeIframeAPIReady();
         $toExpand.find('.video-poster').delay(1000).css('opacity', '0');
         function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
+        player = new YT.Player('player-2', {
             width: '100%',
             height: '100%',
             videoId: 'eV_ZK97hWsA',
