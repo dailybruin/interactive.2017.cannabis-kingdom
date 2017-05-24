@@ -34,20 +34,6 @@ a:hover {
   padding-top: 40vh;
 }
 
-i {
-    border: solid lightgrey;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 20px;
-}
-
-i:hover {
-  border: solid white;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 20px;
-}
-
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -174,6 +160,11 @@ i:hover {
 .link-title{
   font-family: 'Abril Fatface', serif;
   font-size: 2em;
+}
+
+.link-card.refer:hover{
+  border-top: none;
+  opacity: 0.75;
 }
 
 .link-card{
