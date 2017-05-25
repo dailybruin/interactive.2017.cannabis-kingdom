@@ -51,6 +51,9 @@
       z-index: 100;
     }
   </style>
+  
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="js/navbar.js"></script>
 </head>
 
 <body>
@@ -68,15 +71,15 @@
       Cannabis Kingdom
     </a>
         <ul id="days" class="left hide-on-med-and-down">
-          <li><a href="#potential" class="left navlink">The Pot Potential</a></li>
-          <li><a href="#campaign" class="left navlink">The Cannabis Campaign</a></li>
-          <li><a href="#hazy" class="left navlink">A Hazy Horizon</a></li>
-          <li><a href="#op1" class="left navlink"><span class="op1link">Column</span>: Past the Joint</a></li>
+          <li id="Section1"><a onclick="sectionPressed(1)" href="#potential" class="left navlink">The Pot Potential</a></li>
+          <li id="Section2"><a onclick="sectionPressed(2)" href="#campaign" class="left navlink">The Cannabis Campaign</a></li>
+          <li id="Section3"><a onclick="sectionPressed(3)" href="#hazy" class="left navlink">A Hazy Horizon</a></li>
+          <li id="Section4"><a onclick="sectionPressed(4)" href="#op1" class="left navlink"><span class="op1link">Column</span>: Past the Joint</a></li>
         </ul>
         <ul id="days" class="right hide-on-med-and-down">
-          <li id="Day1"><a class="navlink" href="day1.html">Part 1</a></li>
-          <li id="Day2"><a class="navlink" href="day2.html">Part 2</a></li>
-          <li id="Day3"><a class="navlink" href="day3.html">Part 3</a></li>
+          <li id="Day1"><a onclick="dayPressed(1)" class="navlink" href="day1.html">Part 1</a></li>
+          <li id="Day2"><a onclick="dayPressed(2)" class="navlink" href="day2.html">Part 2</a></li>
+          <li id="Day3"><a onclick="dayPressed(3)" class="navlink" href="day3.html">Part 3</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a class="subheader">Part 1</a></li>
@@ -399,8 +402,6 @@
   <script src="js/scroll_progress.js"></script>
   <script src="js/app.js"></script>
   <script src="js/smoothscroll.js"></script>
-  <!-- JAVASCRIPT -->
-  <script type="text/javascript" src="js/navbar.js"></script>
 </body>
 
 </html>
