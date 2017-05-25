@@ -75,7 +75,7 @@ window.dayPressed = function(index) {
 }
 
 // Remove current active sections whenever a window closes or leaves
-window.onbeforeunload = function() {
+window.onunload = function() {
 	if(typeof window.localStorage != 'undefined') 
 		localStorage.removeItem('active_section');
 }
